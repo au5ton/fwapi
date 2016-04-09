@@ -15,6 +15,7 @@ npm module for interacting with Fluff World
 
 ### Development so far
 
+- [ ] Protocol research
 - [ ] Authentication framework
 - [ ] Basic event-driven chatting
 - [ ] Torrent section posting and searching
