@@ -54,3 +54,10 @@ Set-Cookie header contains valid `verf` cookie and others like the following;
 verf=3auu1231a3fb5a7a90a45fba3d20dd8j; expires=Sun, 10-Apr-2016 02:56:21 GMT; Max-Age=86400; path=/
 ```
 Successful login pair generated: `PHPSESSID` and `verf` must be included in authenticated requests;
+
+### Situation 3
+#### Request
+Too many erroneous login attempts
+#### Reponse
+Status: 418;
+Congratulations, you've been autobanned for bruteforcing the login system;
