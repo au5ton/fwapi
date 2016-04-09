@@ -12,5 +12,8 @@
   "bugs": {
     "url": "https://github.com/au5ton/fwapi/issues"
   },
-  "homepage": "https://github.com/au5ton/fwapi#readme"
+  "homepage": "https://github.com/au5ton/fwapi#readme",
+  "dependencies": {
+    "request": "^2.70.0"
+  }
 }

@@ -11,7 +11,7 @@ npm module for interacting with Fluff World
 
 `fw.torrent.*` &rarr; methods and things for the torrent section
 
-`fw.sotd.*` &rarr; methods and things for the Song of the Day
+`fw.song.*` &rarr; methods and things for the Song of the Day
 
 ### Development so far
 
