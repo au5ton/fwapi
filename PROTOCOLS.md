@@ -10,7 +10,7 @@ How HTTP'ing with fluff world works
 Empty, cookie is null
 ##### Reponse
 Status: 302;
-Set-Cookie header contains newly generated PHPSESSID (no verf cookie included):
+Set-Cookie header contains newly generated `PHPSESSID` (no `verf` cookie included):
 ```
 PHPSESSID=je6p84b8bff2ud56u22ajs7j96; path=/
 ```
