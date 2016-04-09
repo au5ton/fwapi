@@ -24,7 +24,7 @@ Page directs to home.php (Location: home.php)
 
 #### Situation 3
 ##### Request
-Cookie contains invalid `PHPSESSID` or `verf` cookies
+Cookie contains invalid or expired `PHPSESSID` or `verf` cookies
 
 ##### Reponse
 Status: 302;
