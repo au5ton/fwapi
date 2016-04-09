@@ -61,3 +61,81 @@ Too many erroneous login attempts
 #### Reponse
 Status: 418;
 Congratulations, you've been autobanned for bruteforcing the login system;
+
+---
+
+## Torrent section
+
+### `POST scripts/torrent_upload.php`
+#### Form data
+> tor_name &rarr; torrent name
+
+> tor_hash &rarr; torrent magnet link
+
+> tor_cat &rarr; torrent category (see category key)
+
+### Situation 1
+#### Request
+Torrent name is < 10 characters
+#### Reponse
+Status: 200
+Error;
+"Torrent Name too short." is the response body
+
+### Situation 2
+#### Request
+Magnet link is invalid
+#### Reponse
+Status: 200
+Error;
+"Invalid link." is the response body
+
+### Situation 3
+#### Request
+Category not defined
+#### Reponse
+Status: 200
+Error;
+"Select a category." is the response body
+
+### `GET scripts/torrent_pages.php`
+#### Query string
+> id &rarr; ???
+
+#### Situation 1
+##### Request
+???
+##### Reponse
+???
+
+### Category key
+
+```javascript
+//Fluff World key
+var Ledger = {
+    'Video - Movies': 11,
+    'Video - TV Shows': 12,
+    'Video - General': 10,
+    'Audio - Music': 21,
+    'Audio - Audiobooks': 22,
+    'Audio - General': 20,
+    'Applications - Windows': 31,
+    'Applications - Mac': 32,
+    'Apps - iOS': 33,
+    'Apps - Android': 34,
+    'Games - PC': 41,
+    'Games - Mac': 42,
+    'Games - Playstation': 43,
+    'Games - Xbox': 44,
+    'Games - Wii': 45,
+    'Games - Handheld': 46,
+    'Games - iOS': 47,
+    'Games - Android': 48,
+    'Games - Retro': 49,
+    'E-Books': 51,
+    'General Documents': 52
+};
+
+```
+
+
