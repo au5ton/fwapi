@@ -1,0 +1,16 @@
+{
+  "name": "fwapi",
+  "version": "0.0.1",
+  "description": "module for interacting with Fluff World",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/au5ton/fwapi.git"
+  },
+  "author": "Austin Jackson <austinjckson@gmail.com>",
+  "main": "./index.js",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/au5ton/fwapi/issues"
+  },
+  "homepage": "https://github.com/au5ton/fwapi#readme"
+}
