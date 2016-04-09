@@ -15,7 +15,8 @@ npm module for interacting with Fluff World
 
 ### Development so far
 
-- [ ] fw.auth.*
-- [ ] fw.chat.*
-- [ ] fw.torrent.*
-- [ ] fw.sotd.*
+- [ ] Authentication framework
+- [ ] Basic event-driven chatting
+- [ ] Torrent section posting and searching
+- [ ] SOTD downloading
+- [ ] ???
