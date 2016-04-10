@@ -94,8 +94,8 @@ _.checkLoginStatus = function(callback) {
     }, function (error, response, body) {
         if (!error) {
             if(response.statusCode === 200) {
-                callback('success');
                 client.success('Still logged in.');
+                callback('success');
             }
             else {
                 client.warn('No longer logged in.');
@@ -105,7 +105,7 @@ _.checkLoginStatus = function(callback) {
         else {
             client.errot(error);
         }
-    })
+    });
 };
 
 module.exports = _;
