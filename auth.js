@@ -12,15 +12,6 @@ var FW = require('./constants.js');
 
 var _ = {};
 _.cookie = null;
-_._temp_callback = null;
-
-/*
-
-_.authenticate
-_.loginCheck
-_.
-
-*/
 
 _.authenticate = function(one,two,callback) {
 
@@ -35,7 +26,6 @@ _.authenticate = function(one,two,callback) {
     else if(typeof one === 'string' && typeof two === 'string' && typeof callback === 'function') {
         //one is username, two is password, callback is callback
 
-        _._temp_callback = callback;
         client.log('Attempting to login as: ', colors.blue(one));
 
         request({
