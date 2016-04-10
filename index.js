@@ -1,11 +1,10 @@
 /*
- * fwapi
- *
- * https://github.com/au5ton/fwapi
- *
- */
+** fwapi
+**
+** https://github.com/au5ton/fwapi
+**
+*/
 
-//
 
 module.exports.auth = require('./auth.js');
 module.exports.chat = require('./chat.js');
