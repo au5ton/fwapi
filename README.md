@@ -18,6 +18,7 @@ npm module for interacting with Fluff World
 - [ ] Protocol research (See [PROTOCOLS.md](PROTOCOLS.md))
 - [X] Authentication framework
 - [ ] Basic event-driven chatting
-- [ ] Torrent section posting and searching
+- [X] Torrent section posting
+- [ ] Torrent section searching
 - [ ] SOTD downloading
 - [ ] ???
