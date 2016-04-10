@@ -36,7 +36,6 @@ _.authenticate = function(one,two,callback,saveCookie) {
             client.log('saveCookie specified to load from disk.');
             _.loadCookieFromDisk(one,two,function(status){
                 if(status === 'success') {
-                    client.success('Login successful: loaded token from disk.');
                     callback('success');
                 }
                 else {
