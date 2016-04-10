@@ -98,6 +98,26 @@ Status: 200
 Error;
 "Select a category." is the response body
 
+### Situation 4
+#### Request
+Valid torrent
+#### Reponse
+Error;
+"The torrent already exists." is the response body
+
+### Situation 5
+#### Request
+Valid torrent
+#### Reponse
+Error;
+"The torrent exists in the old torrent section." is the response body
+
+### Situation 6
+#### Request
+Valid torrent
+#### Reponse
+"success" is the response body
+
 ### `GET scripts/torrent_pages.php`
 #### Query string
 > id &rarr; ???
@@ -137,5 +157,3 @@ var Ledger = {
 };
 
 ```
-
-
