@@ -5,13 +5,17 @@ npm module for interacting with Fluff World
 ## API plan
 
 ### Internal modules
-`fw.auth.*` &rarr; methods and things for logging in
+`auth.js` &rarr; methods and things for logging in
 
-`fw.chat.*` &rarr; methods and things for the chat
+`chat.js` &rarr; methods and things for the chat
 
-`fw.torrent.*` &rarr; methods and things for the torrent section
+`constants.js` &rarr; constant values throughout project
 
-`fw.song.*` &rarr; methods and things for the Song of the Day
+`interface.js` &rarr; methods and things present in all modules
+
+`song.js` &rarr; methods and things for the Song of the Day
+
+`torrent.js` &rarr; methods and things for the torrent section
 
 ### Development so far
 
