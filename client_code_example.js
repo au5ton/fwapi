@@ -3,7 +3,7 @@ var client = require('au5ton-logger');
 
 const login = {
     user: 'soot',
-    pass: '*****'
+    pass: process.argv[2]
 };
 
 api.auth.authenticate(login.user, login.pass, function(status){
