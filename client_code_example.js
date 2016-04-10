@@ -4,11 +4,13 @@ var api = require('./index.js');
 var client = require('au5ton-logger');
 
 const login = {
-    user: 'soot',
-    pass: process.argv[2]
+    user: process.argv[2],
+    pass: process.argv[3]
 };
 
-api.auth.authenticate(login.user, login.pass, function(){
+api.auth.authenticate(login.user, login.pass, function(status){
+
+    /*
     api.auth.checkLoginStatus(function(status){
         if(status === 'success') {
             api.torrent.setCookie(api.auth.cookie);
@@ -30,5 +32,6 @@ api.auth.authenticate(login.user, login.pass, function(){
 
         }
     });
+    */
 
-});
+},true);
