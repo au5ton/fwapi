@@ -7,6 +7,10 @@ npm module for interacting with Fluff World
 
 ## API plan
 
+### Protocol research
+
+A very important part in figuring out how to dissect Fluff World. See [PROTOCOLS.md](md/PROTOCOLS.md).
+
 ### Internal modules
 `auth.js` &rarr; methods and things for logging in
 
@@ -22,10 +26,9 @@ npm module for interacting with Fluff World
 
 ### Development so far
 
-- [ ] Protocol research (See [PROTOCOLS.md](md/PROTOCOLS.md))
 - [X] Authentication framework
 - [ ] Basic event-driven chatting
 - [X] Torrent section posting
 - [ ] Torrent section searching
-- [ ] SOTD downloading
-- [ ] ???
+- [X] SOTD downloading
+- [ ] Check all above and to reach a 1.0.0 release
