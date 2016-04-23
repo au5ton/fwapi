@@ -1,6 +1,9 @@
 # fwapi
 npm module for interacting with Fluff World
 
+## Installation
+
+`npm install fwapi --save`
 
 ## API plan
 
