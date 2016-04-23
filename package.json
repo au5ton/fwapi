@@ -1,6 +1,6 @@
 {
   "name": "fwapi",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "module for interacting with Fluff World",
   "repository": {
     "type": "git",
