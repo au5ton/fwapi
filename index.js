@@ -6,7 +6,7 @@
 */
 
 
-module.exports.auth = require('./auth.js');
-module.exports.chat = require('./chat.js');
-module.exports.torrent = require('./torrent.js');
-module.exports.song = require('./song.js');
+module.exports.auth = require('./lib/auth.js');
+module.exports.chat = require('./lib/chat.js');
+module.exports.torrent = require('./lib/torrent.js');
+module.exports.song = require('./lib/song.js');

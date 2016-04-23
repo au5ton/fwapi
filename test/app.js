@@ -1,6 +1,6 @@
 'use strict';
 
-var api = require('./index.js');
+var api = require('../index.js');
 var client = require('au5ton-logger');
 
 const login = {
