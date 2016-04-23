@@ -8,7 +8,7 @@
 
 var request = require('request');
 var client = require('au5ton-logger');
-var colors = require('colors')
+var colors = require('colors');
 var crypto = require('crypto');
 const algorithm = 'aes-256-ctr';
 var fs = require('fs');
@@ -114,6 +114,9 @@ _.authenticate = function(one,two,callback,saveCookie) {
 
 
 
+    }
+    else if(one === undefined || two === undefined || one === null || two === null) {
+        client.error('Error with provided credentials.');
     }
     else {
         client.error('Unknown error in auth.authenticate');

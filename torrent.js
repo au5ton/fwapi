@@ -42,6 +42,11 @@ _.Torrent = function(obj) {
     this.magnetLink = obj.magnetLink;
     this.subcategory = obj.subcategory;
     this.categoryString = obj.categoryString;
+
+    if( (obj.subcategory === null || obj.subcategory === undefined) && (this.categoryString !== null && this.categoryString !== undefined)) {
+        //Transform categoryString into subcategory
+
+    }
 }
 
 _.locallyValidateTorrent = function(torrent, callback) {
@@ -102,7 +107,7 @@ _.postTorrent = function(torrent, callback) {
         }
     }, function(error, response, body) {
         if(error) {
-            client.error(JSON.stringify(error));
+            client.error(error);
         }
         if(!error && body === 'success') {
             client.success('Torrent \''+torrent.name+'\' was posted.')
