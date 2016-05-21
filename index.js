@@ -16,4 +16,8 @@ module.exports.song = require('./lib/song.js');
 module.exports.constants = require('./lib/constants.js');
 
 //Creates common preferences folder
-fs.mkdir(module.exports.constants.APP_PREFS);
+try {
+    fs.mkdirSync(module.exports.constants.APP_PREFS);
+} catch(e) {
+    if ( e.code != 'EEXIST' ) throw e;
+}
