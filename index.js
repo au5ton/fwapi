@@ -7,6 +7,9 @@
 
 'use strict';
 
+
+require('ssl-root-cas/latest').inject()
+
 var fs = require('fs');
 
 module.exports.auth = require('./lib/auth.js');
