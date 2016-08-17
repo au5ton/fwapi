@@ -1,6 +1,6 @@
 {
   "name": "fwapi",
-  "version": "0.3.26",
+  "version": "0.3.28",
   "description": "module for interacting with Fluff World",
   "repository": {
     "type": "git",
@@ -19,6 +19,7 @@
     "cookie": "^0.2.3",
     "node-ffprobe": "^1.2.2",
     "progress-stream": "^1.2.0",
-    "request": "^2.70.0"
+    "request": "^2.70.0",
+    "ssl-root-cas": "^1.1.10"
   }
 }
