@@ -1,6 +1,10 @@
 # fwapi
 npm module for interacting with Fluff World
 
+## NOTICE
+
+Currently, the fwapi has adapted to Fluff World's current state. Fluff World has migrated hosts and is currently only HTTP. Secure connections aren't available yet. v0.3.28 implemented a [temporary fix](https://github.com/au5ton/fwapi/commit/a73232eddfcfcbf36fca58a5e27285b84474b8b5) to continue functionality, but all data sent and received won't be secure and protected. This will be overwritten in v0.4.0 when Fluff World's new host supports HTTPS (secure) connections.
+
 ## Installation
 
 `npm install fwapi --save`
