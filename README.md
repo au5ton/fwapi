@@ -5,8 +5,6 @@ npm module for interacting with Fluff World
 
 `npm install fwapi --save`
 
-To use fwapi.song.getSongLength, fwapi depends on node-ffprobe, which requires [FFmpeg](https://ffmpeg.org/) to be installed and (likely) in your path. To use fwapi.song.getSongLength, you'll need to install FFmpeg (`brew install ffmpeg` on OS X works).
-
 ## API plan
 
 ### Protocol research
